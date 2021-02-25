@@ -46,6 +46,8 @@ const project = new Project({
 
 const source = project.addSourceFileAtPath("./main.d.ts");
 
+// const sourceList = project.addSourceFilesAtPaths("dist/**/*.ts");
+
 const classList = source.getClasses();
 
 for (const cls of classList){
