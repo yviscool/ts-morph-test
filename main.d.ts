@@ -17,3 +17,11 @@ export declare class Shop extends BaseModel {
     platform?: string;
     isAuth?: boolean;
 }
+
+interface Bar<T, R> {
+    name: string;
+    age: number;
+    test: T
+    test1: R; 
+}
+export type Foo = Bar<string, number>
