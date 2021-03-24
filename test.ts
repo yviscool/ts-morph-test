@@ -61,3 +61,23 @@ for (const cls of classList){
     log('Name: ', property.getName(), 'Type: ', property.getType()?.getText())
   }
 }
+      
+// const classList = source.getTypeAliases();
+
+// for (const cls of classList) {
+
+//   log(cls);
+
+//   log('typeName: ', cls.getName());
+
+//   log(cls.getType().getTypeArguments().map(t => t.getText()))
+
+//   for (const property of cls.getType().getProperties()) {
+//     log('Name: ', property.getName(), 'Type: ', property.getValueDeclaration()?.getType()?.getText());
+//     // log('Name: ', property.getName(), 'Type: ', property.getValueDeclaration()?.getKindName())
+//   }
+//   // for (const property  of cls.get() ){
+//   //   // log( property.getText() );
+//   //   log('Name: ', property.getName(), 'Type: ', property.getType()?.getText())
+//   // }
+// }
